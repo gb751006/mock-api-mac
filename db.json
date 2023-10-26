@@ -1,44 +1,185 @@
 {
-    "events": [
-      {
-        "id": 1,
-        "poster": "https://www.timeoutdubai.com/cloud/timeoutdubai/2023/05/22/gigs-in-dubai-1.png",
-        "name": "Music Festival",
-        "description": "A vibrant music festival featuring top artists from around the world.",
-        "date": "2023-09-15",
-        "location": "Delhi",
-        "category": "Music",
-        "price": 300
-      },
-      {
-        "id": 2,
-        "poster": "https://media.istockphoto.com/id/1320104418/photo/sport-background-green-field-in-soccer-stadium-ready-for-game-in-the-midfield-3d-illustration.jpg?s=612x612&w=0&k=20&c=P4R6zIzHvVlc3_wtsZPw7LoOG_TC9iV4DvpffHmCuU8=",
-        "name": "Soccer Match",
-        "description": "An exciting soccer match between two rival teams.",
-        "date": "2023-08-28",
-        "location": "Chennai",
-        "category": "Sports",
-        "price": 250
-      },
-      {
-        "id": 3,
-        "poster": "https://wpvip.edutopia.org/wp-content/uploads/2022/10/davis-169hero2-teachcode-twenty20.jpg?w=2880&quality=85",
-        "name": "Coding Workshop",
-        "description": "Learn the art of coding with experienced professionals.",
-        "date": "2023-09-05",
-        "location": "Banglore",
-        "category": "Workshop",
-        "price": 150
-      },
-      {
-        "id": 4,
-        "poster": "https://media.npr.org/assets/img/2017/12/21/_harlan_nprmusic10years-149_wide-78a7596027f7b4c023a21ad85f078e8a4165c230-s800-c85.jpg",
-        "name": "Rock Concert",
-        "description": "A high-energy rock concert with electrifying performances.",
-        "date": "2023-09-20",
-        "location": "Mumbai",
-        "category": "Music",
-        "price": 400
-      }
-    ]
-  }
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the punishment for playing Postal 2 in New Zealand?",
+      "correct_answer": "10 years in prison and a fine of $50,000",
+      "incorrect_answers": [
+        "Fine of $5,000",
+        "Nothing",
+        "15 years in prison and a fine of $10,000"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which animated movie was first to feature a celebrity as a voice actor?",
+      "correct_answer": "Aladdin",
+      "incorrect_answers": [
+        "Toy Story",
+        "James and the Giant Peach",
+        "The Hunchback of Notre Dame"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is Pikachu&#039;s National Pok&eacute;Dex Number?",
+      "correct_answer": "#025",
+      "incorrect_answers": [
+        "#001",
+        "#031",
+        "#109"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In which British seaside town was the BBC sitcom &quot;Fawlty Towers&quot; set?",
+      "correct_answer": "Torquay",
+      "incorrect_answers": [
+        "Blackpool",
+        "Bournemouth",
+        "Great Yarmouth"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these companies does NOT manufacture automobiles?",
+      "correct_answer": "Ducati",
+      "incorrect_answers": [
+        "Nissan",
+        "GMC",
+        "Fiat"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these is NOT a song on The Beatles&#039; 1968 self titled album, also known as the White album?",
+      "correct_answer": "Being For The Benefit Of Mr. Kite!",
+      "incorrect_answers": [
+        "Why Don&#039;t We Do It in the Road?",
+        "Everybody&#039;s Got Something to Hide Except Me and My Monkey",
+        "The Continuing Story of Bungalow Bill"
+      ]
+    },
+    {
+      "category": "Entertainment: Cartoon & Animations",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;Avatar: The Last Airbender&quot;, which element does Aang begin to learn after being defrosted?",
+      "correct_answer": "Water",
+      "incorrect_answers": [
+        "Air",
+        "Earth",
+        "Fire"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the name of the main character from the music video of &quot;Shelter&quot; by Porter Robinson and A-1 Studios?",
+      "correct_answer": "Rin",
+      "incorrect_answers": [
+        "Rem",
+        "Ren",
+        "Ram"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the bloodiest single-day battle during the American Civil War?",
+      "correct_answer": "The Battle of Antietam",
+      "incorrect_answers": [
+        "The Siege of Vicksburg",
+        "The Battle of Gettysburg",
+        "The Battles of Chancellorsville"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
+      "correct_answer": "Center Parcs",
+      "incorrect_answers": [
+        "Yelloh Village",
+        "Keycamp",
+        "Villa Plus"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the real name of &quot;Warhead&quot; in the Sega Genesis game &quot;Vectorman&quot;?",
+      "correct_answer": "Raster",
+      "incorrect_answers": [
+        "Peacehead",
+        "Vectorkid",
+        "Bitmap"
+      ]
+    },
+    {
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What mytological creatures have women&#039;s faces and vultures&#039; bodies?",
+      "correct_answer": "Harpies",
+      "incorrect_answers": [
+        "Mermaids",
+        "Nymph",
+        "Lilith"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The &quot;British Invasion&quot; was a cultural phenomenon in music where British boy bands became popular in the USA in what decade?",
+      "correct_answer": "60&#039;s",
+      "incorrect_answers": [
+        "50&#039;s",
+        "40&#039;s",
+        "30&#039;s"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which U.S. President was famously &#039;attacked&#039; by a swimming rabbit?",
+      "correct_answer": "Jimmy Carter",
+      "incorrect_answers": [
+        "Ronald Reagan",
+        "Lydon B. Johnson",
+        "Gerald Ford"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the famous Papa John&#039;s last name?",
+      "correct_answer": "Schnatter",
+      "incorrect_answers": [
+        "Chowder",
+        "Williams",
+        "ANDERSON"
+      ]
+    }
+  ]
+}
